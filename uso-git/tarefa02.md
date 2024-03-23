@@ -1,104 +1,104 @@
-git config --local user.email "joaovitoralves2009@hotmail.com"
-git config --local user.name "João Vitor"
+1. git config --local user.email "joaovitoralves2009@hotmail.com"<br>
+git config --local user.name "João Vitor"<br>
 
-mkdir cs-aulagit
+3. mkdir cs-aulagit
 
-git init
+4. git init
 
-ls -la
+5. ls -la
 
-rm -rf .git
+6. rm -rf .git
 
-git init
+7. git init
 
-vim cs.txt
-	"João Vitor"
-	ESC
-	:wq
+8. vim cs.txt<br>
+	"João Vitor"<br>
+	ESC<br>
+	:wq<br>
 	
-git status
+9. git status
 
-git stage cs.txt
-git status
+10. git stage cs.txt <br>
+git status<br>
 
-git commit -m "Arquivo cs.txt criado com o meu nome"
+11. git commit -m "Arquivo cs.txt criado com o meu nome"
 
-git status
+12. git status
 
-git ls-files
+13. git ls-files
 
-vim cs.txt
-	"construção de software"
-	ESC
-	:wq
+14. vim cs.txt<br>
+	"construção de software"<br>
+	ESC<br>
+	:wq<br>
 	
-vim engenharia-software.txt
-git status
+15. vim engenharia-software.txt<br>
+git status<br>
 
-git ls-files
+16. git ls-files
 
-git add .
+17. git add .
 
-git reset cs.txt
+18. git reset cs.txt
 
-git status
+19. git status
 
-vim cs.txt
-	"INF - Instituto de Informática"
-	ESC
-	:wq
-git add cs.txt
+20. vim cs.txt<br>
+	"INF - Instituto de Informática"<br>
+	ESC<br>
+	:wq<br>
+git add cs.txt<br>
 
-git commit -m "Definição do Curso de Engenharia de Software do INF"
+21. git commit -m "Definição do Curso de Engenharia de Software do INF"
 
-git log
+22. git log
 
-git log cs.txt
+23. git log cs.txt
 
-vim cs.txt
-	"UFG - Universidade Federal de Goiás"
-	ESC
-	:wq
+24. vim cs.txt<br>
+	"UFG - Universidade Federal de Goiás"<br>
+	ESC<br>
+	:wq<br>
 
-git diff cs.txt
+25. git diff cs.txt
 
-git add cs.txt
+26. git add cs.txt
 
-git reset cs.txt
+27. git reset cs.txt
 
-git add cs.txt
-git commit -m "Treino"
+28. git add cs.txt<br>
+git commit -m "Treino"<br>
 
-git branch
+29. git branch
 
-git checkout -b develop
+30. git checkout -b develop
 
-git branch
+31. git branch
 
-vim engenharia-software.txt
-	"3200h"
-	ESC
-	:wq
+32. vim engenharia-software.txt<br>
+	"3200h"<br>
+	ESC<br>
+	:wq<br>
 
-vim estudo.git.txt
-	"o git status verifica os arquivos que estão sendo monitorados ou nao pelo git"
-	ESC
-	:wq
+33. vim estudo.git.txt<br>
+	"o git status verifica os arquivos que estão sendo monitorados ou nao pelo git"<br>
+	ESC<br>
+	:wq<br>
 	
-git status
+34. git status
 
-git add .
+35. git add .
 
-git checkout master
+36. git checkout master
 
-git ls-files
+37. git ls-files
 
-git diff
+38. git diff
 
-git branch master
+39. git branch master
 
-git merge develop
+40. git merge develop
 
-git branch -D develop
+41. git branch -D develop
 
-git branch
+42. git branch
