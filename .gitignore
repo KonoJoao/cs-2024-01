@@ -1,4 +1,4 @@
-target/
+Diagrama7/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
