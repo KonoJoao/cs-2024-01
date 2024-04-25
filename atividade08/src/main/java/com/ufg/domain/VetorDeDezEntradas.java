@@ -17,8 +17,8 @@ public class VetorDeDezEntradas {
                 vetor[i] = valor;
                 valor = scanner.nextInt();
                 i++;
-            }  catch(ArithmeticException exception){
-            throw new Error("você tentou dividir por 0");
+            }  catch(ArrayIndexOutOfBoundsException exception){
+            throw new Error("você tentou colocar dados em espaço de memoria invalido");
         } catch(InputMismatchException exception){
             throw new Error("insira dados númericos");
         }
