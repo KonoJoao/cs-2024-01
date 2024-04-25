@@ -1,5 +1,6 @@
 package com.ufg.domain;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class VetorDeDezEntradas {
@@ -12,9 +13,15 @@ public class VetorDeDezEntradas {
         int i = 0;
 
         while(valor != 0){
-            vetor[i] = valor;
-            valor = scanner.nextInt();
-            i++;
+            try {
+                vetor[i] = valor;
+                valor = scanner.nextInt();
+                i++;
+            }  catch(ArithmeticException exception){
+            throw new Error("você tentou dividir por 0");
+        } catch(InputMismatchException exception){
+            throw new Error("insira dados númericos");
+        }
         }
     }
 }
